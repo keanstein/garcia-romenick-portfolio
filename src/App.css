@@ -1,0 +1,42 @@
+.vh-50{
+  height: 50vh !important;
+}
+.vh-75{
+  height: 75vh !important;
+}
+
+.nav-bg{
+  background-color: #1A1A1A !important;
+}
+.bg-darker{
+  background-color: #1A1A1A !important;
+}
+
+.profile-bg{
+  background-color: #1A1A1A !important;
+}
+
+a{
+  font-size: 18px !important;
+}
+
+.profileImage{
+}
+
+.color img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 0.5s ease;
+}
+
+Card{
+  display: none;
+}
